@@ -14,6 +14,8 @@
 		EE54C1982429645C001961AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE54C1962429645C001961AD /* Main.storyboard */; };
 		EE54C19A2429645F001961AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE54C1992429645F001961AD /* Assets.xcassets */; };
 		EE54C19D2429645F001961AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE54C19B2429645F001961AD /* LaunchScreen.storyboard */; };
+		EE54C1A524296A55001961AD /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE54C1A424296A55001961AD /* ThirdViewController.swift */; };
+		EE54C1A724296B13001961AD /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE54C1A624296B13001961AD /* FourthViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		EE54C1992429645F001961AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE54C19C2429645F001961AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE54C19E2429645F001961AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE54C1A424296A55001961AD /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		EE54C1A624296B13001961AD /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				EE54C1992429645F001961AD /* Assets.xcassets */,
 				EE54C19B2429645F001961AD /* LaunchScreen.storyboard */,
 				EE54C19E2429645F001961AD /* Info.plist */,
+				EE54C1A424296A55001961AD /* ThirdViewController.swift */,
+				EE54C1A624296B13001961AD /* FourthViewController.swift */,
 			);
 			path = Day6iOSTab;
 			sourceTree = "<group>";
@@ -141,8 +147,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE54C1A724296B13001961AD /* FourthViewController.swift in Sources */,
 				EE54C1952429645C001961AD /* SecondViewController.swift in Sources */,
 				EE54C1932429645C001961AD /* FirstViewController.swift in Sources */,
+				EE54C1A524296A55001961AD /* ThirdViewController.swift in Sources */,
 				EE54C18F2429645B001961AD /* AppDelegate.swift in Sources */,
 				EE54C1912429645C001961AD /* SceneDelegate.swift in Sources */,
 			);
